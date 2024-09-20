@@ -31,7 +31,12 @@
 var timer = setTimeout(function() {
             window.location='https://kamalaharris.com'
         }, 5000);
+        let date = new Date().getFullYear();
+    document.getElementById("currentYear").textContent = date;
     </script>
     </div>
 </body>
+    <footer>
+        <p>The Palestinian people have the right to self-determination and I call for all hostages to be released. Ceasefire now.</p>
+        <p>© SCK<span id="currentYear"></span></p></footer>
 </html>
