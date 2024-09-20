@@ -25,18 +25,24 @@
         <div class="snowflake"><img src="pngegg.png" style="width:20px;"></div>
         <div class="snowflake"><img src="pngegg.png" style="width:20px;"></div>
         <div class="snowflake"><img src="pngegg.png" style="width:20px;"></div>
-    <p>Redirecting you to kamalaharris.com...</p>
+    <p>Redirecting you to <a href="https://kamalaharris.com">kamalaharris.com</a>...</p>
         <p>Are you registered to <a href="https://vote.gov">vote?</a></p>
+        <div class="footer">
+            <p>The Palestinian people have the right to self-determination and I call for all hostages to be released. Ceasefire now.</p>
+            <p>© SCK <span id="currentYear"></span></p>
+        </div>
     <script>
-var timer = setTimeout(function() {
+  
+            var timer = setTimeout(function() {
             window.location='https://kamalaharris.com'
         }, 5000);
+
+
         let date = new Date().getFullYear();
-    document.getElementById("currentYear").textContent = date;
+    document.getElementById("currentYear").innerHTML = date;
+    console.log(date)
     </script>
     </div>
+
 </body>
-    <footer>
-        <p>The Palestinian people have the right to self-determination and I call for all hostages to be released. Ceasefire now.</p>
-        <p>© SCK<span id="currentYear"></span></p></footer>
 </html>

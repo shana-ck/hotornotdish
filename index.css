@@ -1,3 +1,20 @@
+body {
+  color: #222;
+  background: #ececec;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #eee;
+    background: #121212;
+  }
+}
+
+.footer {
+  font-size: x-small;
+  font-family: sans-serif;
+}
+
 @-webkit-keyframes snowflakes-fall {
   0% {
     top: -10%;
